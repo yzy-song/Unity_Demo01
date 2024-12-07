@@ -1,0 +1,214 @@
+{
+    "quests": [
+        {
+            "questID": "Quest001",
+            "questName": "Defeat 10 Goblins",
+            "description": "The goblins are attacking the village. Defeat 10 goblins to protect the villagers.",
+            "targetType": "Kill",
+            "targetAmount": 10,
+            "rewards": {
+                "gold": 100,
+                "exp": 150,
+                "items": ["Goblin Ear"]
+            },
+            "questType": "Main",
+            "prerequisites": []
+        },
+        {
+            "questID": "Quest002",
+            "questName": "Collect Healing Herbs",
+            "description": "Gather 5 healing herbs from the nearby forest to aid the wounded.",
+            "targetType": "Collect",
+            "targetAmount": 5,
+            "rewards": {
+                "gold": 50,
+                "exp": 100,
+                "items": ["Healing Herb"]
+            },
+            "questType": "Side",
+            "prerequisites": []
+        },
+        {
+            "questID": "Quest003",
+            "questName": "Explore the Cave",
+            "description": "Explore the dark cave to uncover its secrets.",
+            "targetType": "Explore",
+            "targetAmount": 1,
+            "rewards": {
+                "gold": 75,
+                "exp": 120,
+                "items": []
+            },
+            "questType": "Main",
+            "prerequisites": ["Quest001"]
+        },
+        {
+            "questID": "Quest004",
+            "questName": "Defeat the Ogre",
+            "description": "A dangerous ogre has been sighted near the village. Defeat it to ensure the villagers' safety.",
+            "targetType": "Kill",
+            "targetAmount": 1,
+            "rewards": {
+                "gold": 200,
+                "exp": 300,
+                "items": ["Ogre Tooth"]
+            },
+            "questType": "Main",
+            "prerequisites": ["Quest001", "Quest003"]
+        },
+        {
+            "questID": "Quest005",
+            "questName": "Collect Rare Crystals",
+            "description": "Mine 3 rare crystals from the mountains for the blacksmith.",
+            "targetType": "Collect",
+            "targetAmount": 3,
+            "rewards": {
+                "gold": 60,
+                "exp": 80,
+                "items": ["Rare Crystal"]
+            },
+            "questType": "Side",
+            "prerequisites": []
+        },
+        {
+            "questID": "Quest006",
+            "questName": "Escort the Merchant",
+            "description": "Escort the merchant safely to the next town.",
+            "targetType": "Escort",
+            "targetAmount": 1,
+            "rewards": {
+                "gold": 150,
+                "exp": 200,
+                "items": []
+            },
+            "questType": "Main",
+            "prerequisites": ["Quest004"]
+        },
+        {
+            "questID": "Quest007",
+            "questName": "Find the Lost Necklace",
+            "description": "A villager has lost their necklace in the forest. Find it and return it to them.",
+            "targetType": "Collect",
+            "targetAmount": 1,
+            "rewards": {
+                "gold": 80,
+                "exp": 100,
+                "items": ["Lost Necklace"]
+            },
+            "questType": "Side",
+            "prerequisites": []
+        },
+        {
+            "questID": "Quest008",
+            "questName": "Slay the Bandits",
+            "description": "Bandits have been terrorizing the nearby roads. Eliminate 5 bandits.",
+            "targetType": "Kill",
+            "targetAmount": 5,
+            "rewards": {
+                "gold": 120,
+                "exp": 150,
+                "items": ["Bandit Mask"]
+            },
+            "questType": "Main",
+            "prerequisites": ["Quest003"]
+        },
+        {
+            "questID": "Quest009",
+            "questName": "Gather Firewood",
+            "description": "Collect 10 pieces of firewood for the campfire.",
+            "targetType": "Collect",
+            "targetAmount": 10,
+            "rewards": {
+                "gold": 40,
+                "exp": 60,
+                "items": []
+            },
+            "questType": "Daily",
+            "prerequisites": []
+        },
+        {
+            "questID": "Quest010",
+            "questName": "Deliver Supplies",
+            "description": "Deliver the supplies to the outpost in the forest.",
+            "targetType": "Deliver",
+            "targetAmount": 1,
+            "rewards": {
+                "gold": 70,
+                "exp": 90,
+                "items": []
+            },
+            "questType": "Main",
+            "prerequisites": ["Quest006"]
+        },
+        {
+            "questID": "Quest011",
+            "questName": "Defeat the Alpha Wolf",
+            "description": "An alpha wolf is leading a pack near the village. Defeat it to stop their attacks.",
+            "targetType": "Kill",
+            "targetAmount": 1,
+            "rewards": {
+                "gold": 150,
+                "exp": 250,
+                "items": ["Wolf Pelt"]
+            },
+            "questType": "Main",
+            "prerequisites": ["Quest008"]
+        },
+        {
+            "questID": "Quest012",
+            "questName": "Collect Magic Mushrooms",
+            "description": "Gather 4 magic mushrooms from the enchanted forest.",
+            "targetType": "Collect",
+            "targetAmount": 4,
+            "rewards": {
+                "gold": 100,
+                "exp": 120,
+                "items": ["Magic Mushroom"]
+            },
+            "questType": "Side",
+            "prerequisites": []
+        },
+        {
+            "questID": "Quest013",
+            "questName": "Explore the Ruins",
+            "description": "Explore the ancient ruins to uncover their secrets.",
+            "targetType": "Explore",
+            "targetAmount": 1,
+            "rewards": {
+                "gold": 200,
+                "exp": 300,
+                "items": []
+            },
+            "questType": "Main",
+            "prerequisites": ["Quest011"]
+        },
+        {
+            "questID": "Quest014",
+            "questName": "Repair the Bridge",
+            "description": "Collect 15 wooden planks to repair the bridge.",
+            "targetType": "Collect",
+            "targetAmount": 15,
+            "rewards": {
+                "gold": 50,
+                "exp": 80,
+                "items": []
+            },
+            "questType": "Daily",
+            "prerequisites": []
+        },
+        {
+            "questID": "Quest015",
+            "questName": "Find the Stolen Artifact",
+            "description": "Retrieve the stolen artifact from the bandit's hideout.",
+            "targetType": "Retrieve",
+            "targetAmount": 1,
+            "rewards": {
+                "gold": 300,
+                "exp": 400,
+                "items": ["Ancient Artifact"]
+            },
+            "questType": "Main",
+            "prerequisites": ["Quest013"]
+        }
+    ]
+}

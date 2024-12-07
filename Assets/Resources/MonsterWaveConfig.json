@@ -1,0 +1,19 @@
+{
+  "waves": [
+    {
+      "waveIndex": 1,
+      "monsters": [
+        { "id": 4, "level": 3, "count": 1, "positions": [{ "x": 0, "y": 0 }] },
+        { "id": 5, "level": 2, "count": 1, "positions": [{ "x": -6, "y": 0 }] },
+        { "id": 6, "level": 5, "count": 1, "positions": [{ "x": 6, "y": 0 }] }
+      ]
+    },
+    {
+      "waveIndex": 2,
+      "monsters": [
+        { "id": 6, "level": 4, "count": 2, "positions": [{ "x": -3, "y": 0 }, { "x": 3, "y": 0 }] },
+        { "id": 5, "level": 2, "count": 1, "positions": [{ "x": 0, "y": 0 }] }
+      ]
+    }
+  ]
+}

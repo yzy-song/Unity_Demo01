@@ -1,0 +1,65 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Hero",
+      "prefabPath": "Prefabs/Characters/Hero",
+      "type": "Ally",
+      "skills": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "FootSoldier",
+      "prefabPath": "Prefabs/Characters/FootSoldier",
+      "type": "Ally",
+      "skills": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "name": "FootSoldier",
+      "prefabPath": "Prefabs/Characters/FootSoldier",
+      "type": "Ally",
+      "skills": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": 4,
+      "name": "dragon",
+      "prefabPath": "Prefabs/Monsters/dragon",
+      "type": "Enemy",
+      "skills": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "name": "goblin1",
+      "prefabPath": "Prefabs/Monsters/goblin1",
+      "type": "Enemy",
+      "skills": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "name": "goblin2",
+      "prefabPath": "Prefabs/Monsters/goblin2",
+      "type": "Enemy",
+      "skills": [
+        1,
+        2
+      ]
+    }
+  ]
+}

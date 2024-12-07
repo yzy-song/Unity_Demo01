@@ -1,0 +1,4 @@
+[
+    { "cardName": "Fireball", "attackPower": 30, "manaCost": 5 },
+    { "cardName": "Heal", "attackPower": 0, "manaCost": 3 }
+]

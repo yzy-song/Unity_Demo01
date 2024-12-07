@@ -1,0 +1,67 @@
+{
+    "skills": [
+        {
+            "skillId": 1,
+            "skillName": "Fireball",
+            "damage": 10,
+            "targetType": "SingleTarget",
+            "icon": "Icon_Skill_H019_001",
+            "effectPrefab": "Effects/FireballEffect",
+            "sound": "Sounds/FireballSound"
+        },
+        {
+            "skillId": 2,
+            "skillName": "Meteor",
+            "damage": 15,
+            "targetType": "AllEnemies",
+            "icon": "Icon_Skill_H016_002",
+            "effectPrefab": "Effects/MeteorEffect",
+            "sound": "Sounds/MeteorSound"
+        },
+        {
+            "skillId": 3,
+            "skillName": "Skill 3",
+            "damage": 20,
+            "targetType": "SingleTarget",
+            "icon": "Icon_Skill_H004_001",
+            "effectPrefab": "Effects/FireballEffect",
+            "sound": "Sounds/FireballSound"
+        },
+        {
+            "skillId": 4,
+            "skillName": "Skill 4",
+            "damage": 8,
+            "targetType": "SingleTarget",
+            "icon": "Icon_Skill_H105_002",
+            "effectPrefab": "Effects/FireballEffect",
+            "sound": "Sounds/FireballSound"
+        },
+        {
+            "skillId": 5,
+            "skillName": "Skill 5",
+            "damage": 25,
+            "targetType": "SingleTarget",
+            "icon": "Icon_Skill_H060_003",
+            "effectPrefab": "Effects/FireballEffect",
+            "sound": "Sounds/FireballSound"
+        },
+        {
+            "skillId": 6,
+            "skillName": "Skill 6",
+            "damage": 17,
+            "targetType": "SingleTarget",
+            "icon": "Icon_Skill_H006_002",
+            "effectPrefab": "Effects/FireballEffect",
+            "sound": "Sounds/FireballSound"
+        },
+        {
+            "skillId": 7,
+            "skillName": "Skill 7",
+            "damage": 30,
+            "targetType": "SingleTarget",
+            "icon": "Icon_Skill_H009_003",
+            "effectPrefab": "Effects/FireballEffect",
+            "sound": "Sounds/FireballSound"
+        }
+    ]
+}
