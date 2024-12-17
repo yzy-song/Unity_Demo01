@@ -632,6 +632,7 @@ GameObject:
   - component: {fileID: 1067095653}
   - component: {fileID: 1067095652}
   - component: {fileID: 1067095651}
+  - component: {fileID: 1067095655}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -726,6 +727,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1067095655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067095650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c19bbb834e20a443bcf2eb7d47cbd0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealthText: {fileID: 0}
+  enemyHealthText: {fileID: 0}
+  settingButton: {fileID: 1808509356}
+  skillButton: {fileID: 0}
+  fleeButton: {fileID: 308403227}
+  skillTarget: {fileID: 0}
+  waveText: {fileID: 1949926308}
+  currentSkillId: 0
 --- !u!1 &1104601020
 GameObject:
   m_ObjectHideFlags: 0

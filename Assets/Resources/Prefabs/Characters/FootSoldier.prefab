@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8097561317582263888}
   - component: {fileID: 4866209364697066571}
   - component: {fileID: 8892617780471719978}
-  - component: {fileID: 4224284873544107127}
   - component: {fileID: 152106058195634900}
   m_Layer: 0
   m_Name: spine
@@ -149,24 +148,6 @@ MonoBehaviour:
     region: Equipment/sword1
   - slot: Shield
     region: Equipment/shield1
---- !u!114 &4224284873544107127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5820611570679714744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39201aaa5222f9345a2584403cf15a26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allyType: 
-  maxHealth: 0
-  currentHealth: 0
-  characterName: 
-  skills: []
-  healthBar: {fileID: 0}
 --- !u!114 &152106058195634900
 MonoBehaviour:
   m_ObjectHideFlags: 0

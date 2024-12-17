@@ -1,1 +1,101 @@
-{ }
+[
+  {
+    "id": 1,
+    "speaker": "Rosalie",
+    "text": "It seems the range really has an impact, doesn't it?",
+    "expression": "serious",
+    "avatar": "rosalie_avatar",
+    "background": "lab",
+    "choices": [
+      {"text": "Continue investigating the impact", "next_id": 2},
+      {"text": "Ask the assistant's opinion", "next_id": 3}
+    ]
+  },
+  {
+    "id": 2,
+    "speaker": "Player",
+    "text": "We need more detailed data to analyze this.",
+    "expression": "thinking",
+    "avatar": "player_avatar",
+    "background": "lab",
+    "next_id": 4
+  },
+  {
+    "id": 3,
+    "speaker": "Assistant",
+    "text": "From my experience, this range might extend across the entire lab.",
+    "expression": "worried",
+    "avatar": "assistant_avatar",
+    "background": "lab",
+    "next_id": 5
+  },
+  {
+    "id": 4,
+    "speaker": "Rosalie",
+    "text": "I agree. Next, we need to check the other equipment.",
+    "expression": "serious",
+    "avatar": "rosalie_avatar",
+    "background": "lab",
+    "choices": [
+      {"text": "Go to the control room", "next_id": 6},
+      {"text": "Inspect nearby devices", "next_id": 7}
+    ]
+  },
+  {
+    "id": 5,
+    "speaker": "Player",
+    "text": "The entire lab? We might need to reevaluate this.",
+    "expression": "shocked",
+    "avatar": "player_avatar",
+    "background": "lab",
+    "next_id": 4
+  },
+  {
+    "id": 6,
+    "speaker": "Rosalie",
+    "text": "The control room should have more detailed data to help us locate the issue.",
+    "expression": "confident",
+    "avatar": "rosalie_avatar",
+    "background": "control_room",
+    "next_id": 8
+  },
+  {
+    "id": 7,
+    "speaker": "Assistant",
+    "text": "The equipment inspection is complete. No other anomalies have been found for now.",
+    "expression": "relieved",
+    "avatar": "assistant_avatar",
+    "background": "lab",
+    "next_id": 6
+  },
+  {
+    "id": 8,
+    "speaker": "Player",
+    "text": "The data shows abnormal fluctuations. We might need more advanced tools for analysis.",
+    "expression": "thinking",
+    "avatar": "player_avatar",
+    "background": "control_room",
+    "choices": [
+      {"text": "Request external support", "next_id": 9},
+      {"text": "Try independent analysis", "next_id": 10}
+    ]
+  },
+  {
+    "id": 9,
+    "speaker": "Rosalie",
+    "text": "Contacting headquarters is complete. They will send an expert team over.",
+    "expression": "relieved",
+    "avatar": "rosalie_avatar",
+    "background": "control_room",
+    "next_id": null
+  },
+  {
+    "id": 10,
+    "speaker": "Player",
+    "text": "Although it might be difficult, I want to try solving this analysis myself.",
+    "expression": "determined",
+    "avatar": "player_avatar",
+    "background": "control_room",
+    "next_id": null
+  }
+]
